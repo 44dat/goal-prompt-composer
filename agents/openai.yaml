@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Prompt Composer"
+  short_description: "Turn rough goals into loop-based Goal prompts."
+  default_prompt: "Use $goal-prompt-composer to convert this rough objective into a concise loop-based Goal prompt."
