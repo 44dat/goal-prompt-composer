@@ -60,10 +60,7 @@ goal-prompt-composer/
 Invoke the skill by name and provide an ambiguous objective.
 
 ```text
-Use $goal-prompt-composer to convert this ambiguous objective into a concise loop-based Goal prompt.
-
-Objective:
-Clean up the README and make setup instructions verifiable.
+$goal-prompt-composer Clean up the README and make setup instructions verifiable.
 ```
 
 Example output:
@@ -134,12 +131,12 @@ Goal Prompt Composer は、曖昧な目標や短い依頼を、Goal に渡しや
 
 特に向いている用途:
 
-- 短いアイデアを実行可能なプロンプトに変換する
-- 観測可能な完了条件を追加する
-- 作業前に検証方法を決める
-- 停止条件を明確にする
-- subagent や parallel thread を使うべきか整理する
-- 長めの作業を inspect、act、verify、decide の反復で進める
+- 短いアイデアを実行可能なプロンプトへ変換
+- 観測可能な完了条件の追加
+- 作業前に検証方法を決めたい時
+- 停止条件の明確化
+- subagent や parallel thread を使うべきかの整理
+- 長めの作業を inspect、act、verify、decide の反復で進めたい時
 
 ## インストール
 
@@ -173,10 +170,7 @@ goal-prompt-composer/
 スキル名を指定して、曖昧な目標を渡します。
 
 ```text
-$goal-prompt-composer を使って、次の曖昧な目標を短いループ型 Goal プロンプトにしてください。
-
-目標:
-README を整えて、セットアップ手順を検証可能にしたい。
+$goal-prompt-composer READMEを整えて、セットアップ手順を検証可能にしたい。
 ```
 
 出力例:
